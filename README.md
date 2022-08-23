@@ -5,7 +5,7 @@
      <h3 align="center">Flood - flood host with a lot of files :cloud_with_rain::file_folder:</h3>
 </p>
 
-Simple example about how flood (simple) works and JUST FOR EDUCATIONAL PURPOSES ONLY, **BE CAREFUL**:bangbang: :bangbang: while to execute this script on your computer!!!
+Simple example about how flood (simple) works and JUST FOR EDUCATIONAL PURPOSES ONLY, **BE CAREFUL**:bangbang::bangbang: while to execute this script on your computer!!!
 
 - [Dependencies](#Dependencies)
 - [Run](#Run)
@@ -40,3 +40,5 @@ $ ./flood
 
 [*] Starting flood on host
 ```
+
+***Education is the kindling of a flame, not the filling of a vessel.*** -Socrates :purple_heart:	
