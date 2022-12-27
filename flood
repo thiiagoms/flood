@@ -1,6 +1,19 @@
 #!/usr/bin/env php
 <?php
 
+/**
+ * ▄████  █    ████▄ ████▄ ██▄   
+ * █▀   ▀ █    █   █ █   █ █  █  
+ * █▀▀    █    █   █ █   █ █   █ 
+ * █      ███▄ ▀████ ▀████ █  █  
+ *  █         ▀            ███▀  
+ *   ▀
+ * 
+ * @author Thiago Silva AKA thiiagoms <thiagom.devsec@gmail.com>
+ * @link   https://github.com/thiiagoms/flood
+ * @version 1.0
+ */
+
 ini_set('max_execution_time', 0);
 
 $count = 0;
@@ -13,6 +26,9 @@ echo "\n\e[91m
 █      ███▄ ▀████ ▀████ █  █  
  █         ▀            ███▀  
   ▀\e[0m
+
+  [*] Author: Thiago AKA thiiagoms
+  [*] Repo: https://github.com/thiiagoms/flood
 \n";
 
 echo "\n\e[92m[*] Starting flood on host\e[0m\n";
