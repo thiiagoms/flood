@@ -1,11 +1,6 @@
-<p align="center">
-  <a href="https://github.com/thiiagoms/flood">
-    <img src="assets/flood.png" alt="Logo" width="80" height="80">
-  </a>
-     <h3 align="center">Flood - flood host with a lot of files :cloud_with_rain::file_folder:</h3>
-</p>
+# Flood
 
-Simple example about how flood (simple) works and JUST FOR EDUCATIONAL PURPOSES ONLY, **BE CAREFUL**:bangbang::bangbang: while to execute this script on your computer!!!
+Flood hosts with a lot of folders.
 
 - [Dependencies](#Dependencies)
 - [Run](#Run)
